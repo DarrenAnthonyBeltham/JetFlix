@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.background {
+    position: flex;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    mix-blend-mode: normal;
+}
+
+.image p {
+    position: absolute;
+    top: 280px;
+    left: 700px;
+    font-size: 48px;
+    display: inline-flex;
+    color: red;
+    font-weight: bold;
+    width: 198px;
+    height: 48px;
+}
+
+.image h1 {
+    position: absolute;
+    top: 350px;
+    color: white;
+    left: 580px;
+    font-size: 24px;
+    display: inline-flex;
+}
+
+.button1 button {
+    color: black;
+}
+
+.button1 {
+    background-color: rgb(181, 0, 0);
+    border: none;
+    cursor: pointer;
+    top: 30px;
+    color: white;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    display: inline-flex;
+    font-size: 16px;
+    justify-content: center;
+    margin-left: 1550px;
+    border-radius: 20px;
+}
+
+.image input {
+    margin-left: 600px;
+    top: 400px;
+    left: 0px;
+    position: absolute;
+    width: 451px;
+    height: 50px;
+    padding: 10px;
+    border: 1px rgba(82, 81, 81, 1);
+    background: rgba(82, 81, 81, 1);
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: 12px;
+}
+
+.image span {
+    position: absolute;
+    margin-left: 600px;
+    top: 405px;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 12px;
+    color: white;
+    text-transform: lowercase;
+    transition: 0.5s;
+}
+
+.image input:valid ~ span,
+.image input:focus ~ span 
+{
+    color: cyan;
+    transform: translateX(10px);
+    font-size: 8px;
+    padding: 0 10px;
+    letter-spacing: 2px;
+    transform: translateY(2px);
+}
+
+.footer {
+    background-color: rgb(51, 51, 51);
+    height: 200px;
+    display: flex;
+}
+
+.footer h1 {
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 8px;
+    display: inline-block;
+    margin-top: 1px;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer .kiri {
+    width: 40%;
+}
+
+.footer span {
+    font-weight: bold;
+    color: red;
+    line-height: 11px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+}
+
+.footer h2, h3, h4, h5 {
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+    display: inline-flex;
+    position: absolute;
+    line-height: 8px;
+}
+
+.footer h2 {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.footer h3 {
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.footer h4 {
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+.footer h5 {
+    padding-top: 110px;
+    padding-left: 40px;
+}
+
+.footer .tengah {
+    width: 10%;
+    margin-right: 200px;
+}
+
+.footer .tengah h1, h3, h4, h5 {
+    font-weight: bold;
+}
+
+.tengah h2 {
+    font-weight: bold;
+}
+
+.footer .kanan {
+    width: 40%;
+}
+
+.footer .kanan img {
+    margin-right: 5px;
+    margin-left: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.footer .kanan h1 {
+    font-weight: 400;
+}
+
+.footer .kanan h2 {
+    margin-left: -20px;
+    font-weight: 400;
+}
+
+.footer .kiri h2, h3, h4, h5{
+    font-weight: bold;
+}
